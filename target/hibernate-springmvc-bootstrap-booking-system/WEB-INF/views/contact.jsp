@@ -1,0 +1,40 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
+<html>
+<head>
+    <title>Dane kotaktowe</title>
+
+    <link href="/static/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="/static/css/custom-styles.css" type="text/css" rel="stylesheet">
+
+</head>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<body style="background-color: #F8FFF4">
+<div class="container">
+
+    <jsp:include page="/fragments/navbar.jsp" />
+
+        <div class="panel-heading">
+            <h2>Dane kontatkowe:</h2>
+            <hr class="m-y-2">
+        </div>
+
+
+<div class="container">
+
+
+    <address>
+        <strong>Prawa autorskie: <a href="mailto:sylwester.smolen@wp.pl">Sylwester Smoleń</a></strong><br>
+        Booking System<br>
+        00-201 Warszawa<br>
+    </address>
+</div>
+
+
+    <jsp:include page="/fragments/footer.jsp" />
+</div>
+</body>
+</html>

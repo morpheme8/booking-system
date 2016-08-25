@@ -1,0 +1,75 @@
+.navbar .nav > li.dropdown.open.active > a:hover,
+.navbar .nav > li.dropdown.open > a
+{
+    color: rebeccapurple;
+    background-color: rebeccapurple;
+    border-color: rebeccapurple;
+}
+
+.bcg-panel-heading { background-color: mediumpurple; }
+
+.centered-form{
+    margin-top: 60px;
+}
+
+.centered-form .panel{
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+}
+
+.form-area
+{
+    background-color: #FAFAFA;
+    padding: 10px 40px 60px;
+    margin: 10px 0px 60px;
+    border: 1px solid GREY;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.middle-form{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-primary{
+    background-color: mediumpurple;
+    border-color: black;
+
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    background-color: rebeccapurple;
+    border-color: black;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+
+
+
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 45px;
+    padding-top: 50px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    /* Set the fixed height of the footer here */
+    height: 45px;
+}
+
+
+
+.gallery-item{ margin-bottom: 30px; }
+
